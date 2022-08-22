@@ -23,8 +23,8 @@ jobs:
     - run: pip install -r ./requirements.txt && python ./main.py
 
     env:
-      APP_ID: ${{ secrets.APP_ID }}
-      APP_SECRET: ${{ secrets.APP_SECRET }}
+      APP_ID:wx4b4119945f3e1049 ${{ secrets.APP_ID }}
+      APP_SECRET: 74f6d3e23cfa0c3e9a0759452005ff33${{ secrets.APP_SECRET }}
       TEMPLATE_ID: ${{ secrets.TEMPLATE_ID }}
       USER_ID: ${{ secrets.USER_ID }}
       START_DATE: ${{ secrets.START_DATE }}
